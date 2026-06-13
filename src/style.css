@@ -1,0 +1,21 @@
+body {
+    text-align: center;
+    background-color: #FAC668; /* sunset */
+}
+
+textarea {
+    resize: none
+}
+
+.notes-partition {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.note {
+    background-color: lightgray;
+    text-align: left;
+    padding: .5em 1em;
+    border-radius: 10px;
+    box-shadow: .25em .25em .25em gray;
+}

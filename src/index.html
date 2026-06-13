@@ -1,0 +1,28 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head>   
+    <meta charset="UTF-8" />   
+    <title>Notes Tracker</title>   
+    <meta name="viewport" content="width=device-width,initial-scale=1" />   
+    <meta name="description" content="A simple note taking app." />   
+    <link rel="stylesheet" type="text/css" href="style.css" />   
+    <link rel="icon" href="favicon.png"> 
+</head> 
+<body>   
+    <h1>Notes</h1>
+
+    <div class="notes-partition">
+        <div id="old-notes">
+
+        </div>
+
+        <div id="new-note">
+            <textarea id="note" name="note" rows="4" cols="70"></textarea>
+            <br>
+            <button type="button" onclick="saveNoteToDB()">Save</button>
+        </div>
+    </div>
+    
+    <script src="app.js"></script> 
+</body> 
+</html>
