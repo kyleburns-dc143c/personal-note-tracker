@@ -1,2 +1,2 @@
 # Note Taker
-A simple app for taking notes. This repository is used for personal study and practice.
+An app for taking notes. This project is used for personal study and practice.

@@ -30,9 +30,10 @@ SessionDep = Annotated[Session, Depends(get_session)]
 # initialize the app
 app = FastAPI()
 
-# allow localhost origins for testing
+# allow localhost origins for dev
 origins = [
-    "null", # for local dev only to allow frontend access from index.html
+    "http://127.0.0.1:5173",
+    "http://localhost:5173",
 ]
 
 app.add_middleware(
